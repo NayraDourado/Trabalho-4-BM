@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #F6F2E9;
+}
+
+.pad1{
+  margin-left: 54px;
+  margin-top: 13px;
+}
+
+.redes{
+  margin-top: -4px;
+  margin-left: 83px;
+}
+
+.pad{
+  margin-top: 13px;
+  margin-left: 18px;
+}
+
+.pad2{
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.logo{
+  margin-left: 10px;
+  float: left;
+  width: 146px;
+}
+
+.imagem{
+  margin-top: -11px;
+  margin-left: 40px;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.topnav {
+  margin: 0;
+  padding: 0;
+  background: #E95B2D;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.neg{
+  margin-left: 5px;
+}
+
+.sbn{
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.text{
+  padding: 20px;
+  margin-top: -32px;
+}
+
+.qs{
+  padding: 20px;
+  margin-top: 2px;
+  font-size: 28px;
+}
+
+.text2{
+  padding: 20px;
+  margin-top: -32px;
+}
+
+.chefes{
+  padding: 20px;
+  margin-top: 2px;
+  font-size: 28px;
+}
+
+.ch{
+  padding: 20px;
+  margin-top: -32px;
+}

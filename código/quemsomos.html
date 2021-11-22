@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quem Somos</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div class="topnav">
+  <div><img class="logo" src="imagens/logo1.png"></div>
+  <a class="pad1" href="layout.html">INÍCIO</a>
+  <a class="pad"href="cardapio.html">CARDÁPIO</a>
+  <a class="pad"href="quemsomos.html">QUEM SOMOS</a>
+  <a class="pad"href="https://www.outback.com.br/faleconosco">FALE CONOSCO</a>
+  <a href="#"><img class="redes" src="imagens/redes.png"></a>
+  <a class="pad"href="#"><img class="imagem" src="imagens/perfil1.png"></a>
+  <a class="pad2"href="#"><b>MEU PERFIL</b></a>
+</div>
+
+<div class="sbn"><b>Sobre nós</b></div>
+<div class="text">O Outback Steakhouse possui 110 restaurantes no Brasil e está presente em 49 cidades, 16 estados brasileiros e no Distrito Federal. 
+Com cortes de carne especiais e aperitivos icônicos, o Outback caiu no gosto do brasileiro pela qualidade e sabor marcante da sua culinária, somados à descontração no atendimento e às instalações aconchegantes. 
+Inspirado na Austrália, o restaurante enfatiza vários aspectos da cultura australiana, como esporte, pontos turísticos, paisagens icônicas, tradições e lazer. 
+Além disso, oferecemos uma experiência única, divertida e de altíssimo padrão.
+A rede Outback Steakhouse pertence ao grupo Bloomin’ Brands. No mundo, o Outback está em 23 países nas Américas, Ásia e Oceania.
+O primeiro restaurante no Brasil foi inaugurado na Barra da Tijuca, no Rio de Janeiro, em 1997.</div>
+
+<img class="neg" src="imagens/negocio.png">
+
+<div class="qs"><b>Quem somos</b></div>
+<div class="text2">O Outback Steakhouse, caracterizado pela altíssima qualidade e sabor marcante de sua culinária é um restaurante com cortes de carnes especiais e aperitivos icônicos.
+Inspirado na Austrália, o restaurante enfatiza vários aspectos da cultura australiana, oferecendo assim uma experiência única, divertida e de altíssimo padrão. 
+Possui 110 restaurantes no Brasil e está presente em 23 países nas Américas, Ásia e Oceania.</div>
+
+
+<div class="chefes"><b>Chefes</b></div>
+<div class="ch">Chefes e cozinheiros proativos com domínios em diversas áreas da gastronomia e mais de 5 anos de experiências no ramo. Com vastos conhecimentos teóricos e principalmente práticos.
+
+	<ul id="example-1">
+    <li v-for="item in items" :key="item.message">
+    {{ item.message }}
+  </li>
+</ul>
+ <script>
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    items: [
+      { message: 'Mariane Protázio'},
+      { message: 'Nayra Dourado Oliveira'}
+    ]
+  }
+})
+ </script>
+ </div>
+</body>
+</html>
